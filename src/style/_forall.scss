@@ -9,12 +9,12 @@
 }
 
 .catalog-filter.super-accordion-item .toggler {
-	display: none;
+	// display: none;
 }
 
 .catalog-filter.super-accordion-item .wrapper {
 	padding-top: 24px;
-	display: block;
+	display: none;
 }
 
 .nav-pic-accordion {
@@ -56,10 +56,11 @@
 	.catalog-filter.super-accordion-item .wrapper {
 		display: none;
 		margin-top: 16px;
+		padding-top: 0;
 	}
 
 	.catalog-filter.super-accordion-item .toggler {
-		display: block;
+		// display: block;
 	}
 
 	.nav-pic .nav-pic__item:first-child {
